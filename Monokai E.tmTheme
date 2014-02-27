@@ -426,82 +426,39 @@
 		<!-- SublimeLinter -->
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Illegal Outline</string>
+			<string>SublimeLinter Warning</string>
 			<key>scope</key>
-			<string>sublimelinter.outline.illegal</string>
+			<string>sublimelinter.mark.warning</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#AE81FF33</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Illegal Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.illegal</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#AE81FFAA</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#DF940033</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.warning</string>
-			<key>settings</key>
-			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 				<key>background</key>
 				<string>#DF9400AA</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Violation Outline</string>
+			<string>SublimeLinter Error</string>
 			<key>scope</key>
-			<string>sublimelinter.outline.violation</string>
+			<string>sublimelinter.mark.error</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#F9267233</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Violation Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.violation</string>
-			<key>settings</key>
-			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 				<key>background</key>
 				<string>#F92672AA</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Annotations</string>
+			<string>SublimeLinter Gutter Mark</string>
 			<key>scope</key>
-			<string>sublimelinter.notes</string>
+			<string>sublimelinter.gutter-mark</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#AE81FF</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 
